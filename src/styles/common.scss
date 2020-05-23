@@ -1,0 +1,22 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 14px;
+  .left {
+    line-height: 32px;
+  }
+  .right {
+    display: flex;
+    .el-select {
+      width: 70px !important;
+      margin: 0 5px;
+    }
+    span {
+      line-height: 32px;
+    }
+    .el-button {
+      margin: 0 5px;
+    }
+  }
+}
